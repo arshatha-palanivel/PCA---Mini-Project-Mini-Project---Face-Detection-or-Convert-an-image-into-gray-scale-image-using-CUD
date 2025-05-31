@@ -3,7 +3,8 @@ Mini Project - Face Detection or Convert an image into gray scale image using CU
 
 While both face detection and grayscale conversion can be performed with CUDA, they represent very different levels of complexity.
 
-Grayscale Conversion: This is a relatively simple pixel-wise operation and is a great introductory example for CUDA.
+#Grayscale Conversion: 
+This is a relatively simple pixel-wise operation and is a great introductory example for CUDA.
 Face Detection: This is a much more complex task that typically involves machine learning models (like Haar cascades or deep learning models like CNNs). Implementing a full-fledged face detection algorithm from scratch using CUDA would be a monumental undertaking, far beyond a typical code example.
 Therefore, I will provide a CUDA C++ example for converting an image to grayscale. This will demonstrate the fundamental concepts of CUDA programming, such as memory transfer between host and device, kernel execution, and parallel processing.
 
@@ -12,7 +13,7 @@ If you are interested in face detection, you would typically use a library like 
 Grayscale Conversion using CUDA C++
 This example will take a color image (PPM format for simplicity, as it's easy to parse) and convert it to grayscale using CUDA.
 
-##Prerequisites:
+#Prerequisites:
 CUDA Toolkit: You need to have the NVIDIA CUDA Toolkit installed on your system.
 NVIDIA GPU: A compatible NVIDIA GPU is required to run CUDA programs.
 Basic C++ knowledge: Familiarity with C++ concepts is assumed.
